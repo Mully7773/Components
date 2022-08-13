@@ -7,13 +7,29 @@ body {
   padding: 9.6rem 0;
 }
 
+.headings-container {
+  max-width: 110rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.subheading-container {
+  max-width: 80rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
 .title {
   text-align: center;
+  font-size: 4.8rem !important;
+  letter-spacing: -1.5px !important;
 }
+
 .subheading {
   text-align: center;
   font-size: 1.6rem;
   font-weight: 600;
+  line-height: 1.4;
 }
 
 .step {
