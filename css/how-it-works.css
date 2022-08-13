@@ -3,10 +3,6 @@ body {
   background-color: #effafa;
 }
 
-body::-webkit-scrollbar {
-  display: none;
-}
-
 .section-how-it-works {
   padding: 9.6rem 0;
 }
@@ -60,7 +56,7 @@ body::-webkit-scrollbar {
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
   top: 0;
   right: 50%;
-  transform: translate(0, -50%);
+  transform: translate(50%, -50%);
 }
 
 .blue {
