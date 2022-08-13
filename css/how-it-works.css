@@ -67,6 +67,18 @@ body {
   transform: translate(50%, -50%);
 }
 
+.arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translate(185%, -50%);
+}
+
 .blue {
   background-color: rgb(49, 49, 249);
 }
