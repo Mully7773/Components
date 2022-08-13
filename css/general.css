@@ -52,3 +52,7 @@ body {
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
 }
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
