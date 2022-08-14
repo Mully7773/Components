@@ -1,0 +1,21 @@
+.section-team-interface {
+  padding: 9.6rem 0;
+}
+
+.sabrina {
+  background-color: blue;
+  grid-row: 1 / -4;
+}
+
+.brad {
+  background-color: red;
+}
+
+.emma {
+  background-color: green;
+}
+
+.steve {
+  background-color: yellow;
+  grid-column: 2 /-1;
+}
