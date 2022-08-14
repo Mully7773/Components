@@ -1,6 +1,6 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #effafa;
+  background-color: #d9f2f2;
 }
 
 .section-how-it-works {
@@ -34,7 +34,7 @@ body {
 
 .step {
   position: relative;
-  background-color: #ceefef;
+  background-color: #b5d5d5;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 
   border-radius: 1.6rem;
@@ -46,7 +46,7 @@ body {
 } */
 
 .step-content {
-  background-color: #ceefef;
+  background-color: #b5d5d5;
   padding: 3.2rem 4.8rem;
   border-radius: 1.6rem;
 }
@@ -68,6 +68,11 @@ body {
 }
 
 .arrow {
+  color: blue;
+  stroke: blue;
+  fill: blue;
+  filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg)
+    brightness(95%) contrast(80%);
   display: flex;
   align-items: center;
   justify-content: center;
