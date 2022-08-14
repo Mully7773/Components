@@ -61,6 +61,14 @@ body::-webkit-scrollbar {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.row-gap-sm {
+  row-gap: 3.2rem;
+}
+
+.column-gap-sm {
+  column-gap: 3.2rem;
+}
+
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }

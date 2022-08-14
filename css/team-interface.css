@@ -14,9 +14,27 @@ body {
 }
 
 .card {
+  background-color: #f4e1f4;
   padding: 3.2rem 4.8rem;
   border-radius: 2.8rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.3);
+}
+
+.sabrina,
+.brad,
+.emma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+.steve {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
 }
 
 .sabrina {
@@ -25,32 +43,61 @@ body {
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
-  background-color: blue;
+
   grid-row: 1 / -4;
 }
 
 .description {
   font-size: 1.4rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1.6rem;
+  line-height: 1.4;
 }
 
-.sabrina-circle {
-  background-color: red;
+.steve-description {
+  margin-top: 1.6rem;
+  font-size: 1.4rem;
+  justify-self: left;
+  line-height: 1.4;
+}
+
+.circle {
   width: 12rem;
   height: 12rem;
   border-radius: 50%;
 }
 
-.brad {
+.sabrina-circle {
   background-color: red;
 }
 
+.brad {
+  /* background-color: red; */
+}
+
+.brad-circle {
+  background-color: red;
+  width: 8.5rem;
+  height: 8.5rem;
+}
+
 .emma {
-  background-color: green;
+  /* background-color: green; */
+}
+
+.emma-circle {
+  background-color: red;
+  width: 8.5rem;
+  height: 8.5rem;
 }
 
 .steve {
-  background-color: yellow;
+  /* background-color: yellow; */
   grid-column: 2 /-1;
+}
+
+.steve-circle {
+  background-color: red;
+  width: 10rem;
+  height: 10rem;
 }
