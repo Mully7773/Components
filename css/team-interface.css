@@ -4,11 +4,23 @@
 
 body {
   height: 100vh;
-  background-image: radial-gradient(circle 36rem, #d477d4, #fff);
+  background-image: radial-gradient(circle 36rem, #d885d8, #fff);
   background-repeat: no-repeat;
 }
 
+.grid--3-cols-half {
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
 .greeting {
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #222;
+  font-size: 2.4rem;
+}
+
+.steve-greeting {
+  margin-bottom: 1rem;
   color: #222;
   font-size: 2.4rem;
 }
@@ -55,7 +67,6 @@ body {
 }
 
 .steve-description {
-  margin-top: 1.6rem;
   font-size: 1.4rem;
   justify-self: left;
   line-height: 1.4;
