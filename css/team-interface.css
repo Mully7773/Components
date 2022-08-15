@@ -91,16 +91,33 @@ body {
 }
 
 .sabrina-circle {
-  background-color: red;
+  background: radial-gradient(
+      farthest-side at bottom left,
+      rgba(255, 0, 255, 0.5),
+      transparent
+    ),
+    radial-gradient(
+      farthest-corner at top right,
+      rgba(255, 50, 50, 0.5),
+      transparent 400px
+    );
   margin-bottom: 5rem;
 }
 
 .brad {
-  /* background-color: red; */
 }
 
 .brad-circle {
-  background-color: red;
+  background: radial-gradient(
+      farthest-side at bottom left,
+      rgba(53, 48, 198, 0.5),
+      transparent
+    ),
+    radial-gradient(
+      farthest-corner at top right,
+      rgba(109, 233, 255, 0.5),
+      transparent 400px
+    );
   width: 9.5rem;
   height: 9.5rem;
 }
@@ -110,7 +127,16 @@ body {
 }
 
 .emma-circle {
-  background-color: red;
+  background: radial-gradient(
+      farthest-side at bottom left,
+      rgb(238, 10, 10),
+      transparent
+    ),
+    radial-gradient(
+      farthest-corner at top right,
+      rgba(255, 255, 14, 0.991),
+      transparent 400px
+    );
   width: 9.5rem;
   height: 9.5rem;
 }
@@ -122,7 +148,16 @@ body {
 }
 
 .steve-circle {
-  background-color: red;
+  background: radial-gradient(
+      farthest-side at bottom left,
+      rgb(6, 113, 38),
+      transparent
+    ),
+    radial-gradient(
+      farthest-corner at top right,
+      rgba(144, 240, 247, 0.991),
+      transparent 400px
+    );
   width: 13rem;
   height: 13rem;
   padding-right: 10rem;
