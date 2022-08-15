@@ -33,11 +33,11 @@ body {
 }
 
 .card {
-  background-color: #fff;
+  background-color: rgb(244, 244, 244);
   padding: 4rem 6.4rem;
   border-radius: 2.8rem;
 
-  box-shadow: 2rem 2rem 10rem rgba(255, 160, 225);
+  box-shadow: 2rem 2rem 10rem rgb(203, 160, 255);
 }
 
 .sabrina-card {
@@ -85,9 +85,29 @@ body {
 }
 
 .circle {
+  position: relative;
   width: 18rem;
   height: 18rem;
   border-radius: 50%;
+}
+
+.user-icon {
+  position: absolute;
+  right: 0;
+  height: 4.6rem;
+  width: 4.6rem;
+  border-radius: 50%;
+  border: 2.5px solid #fff;
+}
+
+.user-icon--steve {
+  height: 5.2rem;
+  width: 5.2rem;
+}
+
+.user-icon--sabrina {
+  height: 7.2rem;
+  width: 7.2rem;
 }
 
 .sabrina-circle {
@@ -110,7 +130,7 @@ body {
 .brad-circle {
   background: radial-gradient(
       farthest-side at bottom left,
-      rgba(53, 48, 198, 0.5),
+      rgba(46, 40, 212, 0.5),
       transparent
     ),
     radial-gradient(
