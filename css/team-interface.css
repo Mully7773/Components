@@ -5,7 +5,7 @@
 body {
   font-family: "Inter", sans-serif;
   height: 100vh;
-  /* background-image: radial-gradient(circle 36rem, #f6e4f6, #fbf1fb); */
+  background-image: radial-gradient(circle 175rem, #f3d7f3e7, #fbf1fb);
   background-repeat: no-repeat;
 }
 
@@ -37,7 +37,13 @@ body {
   padding: 4rem 6.4rem;
   border-radius: 2.8rem;
 
-  box-shadow: 2rem 2rem 10rem rgb(203, 160, 255);
+  /* box-shadow: 2rem 2rem 10rem rgb(203, 160, 255); */
+  transition: all 0.4s;
+}
+
+.card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0rem 0rem 0rem 0.5rem rgb(203, 160, 255);
 }
 
 .sabrina-card {
@@ -89,6 +95,7 @@ body {
   width: 18rem;
   height: 18rem;
   border-radius: 50%;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
 }
 
 .user-icon {
