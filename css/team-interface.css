@@ -34,7 +34,7 @@ body {
 
 .card {
   background-color: #fff;
-  padding: 3.2rem 6.4rem;
+  padding: 4rem 6.4rem;
   border-radius: 2.8rem;
 
   box-shadow: 2rem 2rem 10rem rgba(255, 160, 225);
@@ -50,7 +50,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* justify-content: ; */
+  justify-content: space-evenly;
   gap: 2rem;
 }
 
@@ -63,30 +63,36 @@ body {
 
 .sabrina {
   grid-row: 1 / -4;
+  line-height: 1.8;
 }
 
 .description {
+  font-weight: 600;
   font-size: 1.4rem;
   text-align: center;
   margin-bottom: 1.6rem;
   line-height: 1.4;
 }
 
+.sabrina-description {
+  line-height: 1.8;
+}
 .steve-description {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   justify-self: left;
   line-height: 1.4;
   margin-top: 1.6rem;
 }
 
 .circle {
-  width: 16rem;
-  height: 16rem;
+  width: 18rem;
+  height: 18rem;
   border-radius: 50%;
 }
 
 .sabrina-circle {
   background-color: red;
+  margin-bottom: 5rem;
 }
 
 .brad {
@@ -95,8 +101,8 @@ body {
 
 .brad-circle {
   background-color: red;
-  width: 8.5rem;
-  height: 8.5rem;
+  width: 9.5rem;
+  height: 9.5rem;
 }
 
 .emma {
@@ -105,20 +111,19 @@ body {
 
 .emma-circle {
   background-color: red;
-  width: 8.5rem;
-  height: 8.5rem;
+  width: 9.5rem;
+  height: 9.5rem;
 }
 
 .steve {
-  /* background-color: yellow; */
   grid-column: 2 / -1;
-  /* grid-row: 3 / ; */
-  /* grid-row: 3 / -4; */
+
   grid-row: -3 / -1;
 }
 
 .steve-circle {
   background-color: red;
-  width: 10rem;
-  height: 10rem;
+  width: 13rem;
+  height: 13rem;
+  padding-right: 10rem;
 }
