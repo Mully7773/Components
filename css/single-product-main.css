@@ -1,0 +1,40 @@
+.section-single-product {
+  padding: 9.6rem 0;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: orange;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.container--main-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.rating-reviews {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.reviews {
+  font-size: 1.6rem;
+  display: block;
+  padding-left: 1.2rem;
+}
+
+.star-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.description {
+  font-size: 1.8rem;
+}
