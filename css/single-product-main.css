@@ -1,10 +1,14 @@
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
 .section-single-product {
   padding: 9.6rem 0;
 }
 
 .drink-container {
   max-width: auto;
-  padding: 1.8rem 1.6rem 0 1.6rem;
+  padding: 3rem 1.6rem 0 1.6rem;
   margin: 0 auto;
   background-color: #ebba3a;
 }
@@ -17,17 +21,19 @@
 
 .subheading {
   display: block;
-  font-size: 1.8rem;
+  font-size: 2rem;
   font-weight: 500;
-  color: orange;
+  color: #463811;
   text-transform: uppercase;
   letter-spacing: 0.75px;
+  font-family: "Work Sans", sans-serif;
 }
 
 .product-heading {
-  font-size: 5.2rem;
+  font-family: "Merriweather", serif;
+  font-size: 6.2rem;
   line-height: 1.05;
-  color: #333;
+  color: #2f250c;
   letter-spacing: -0.5px;
   font-weight: 700;
   margin-bottom: 0.8rem;
@@ -54,15 +60,17 @@
 .star-icon {
   height: 2.4rem;
   width: 2.4rem;
-  fill: orange;
+  fill: #2f250c;
 }
 
 .description {
-  font-size: 1.8rem;
-  line-height: 1.4;
+  color: #463811;
+  font-size: 1.9rem;
+  line-height: 1.6;
 }
 
 .product-price {
+  color: #463811;
   font-size: 2.4rem;
   letter-spacing: 1.4px;
 }
