@@ -8,8 +8,16 @@
   font-weight: 500;
   color: orange;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
   letter-spacing: 0.75px;
+}
+
+.product-heading {
+  font-size: 5.2rem;
+  line-height: 1.05;
+  color: #333;
+  letter-spacing: -0.5px;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
 }
 
 .container--main-flex {
@@ -37,4 +45,10 @@
 
 .description {
   font-size: 1.8rem;
+  line-height: 1.4;
+}
+
+.product-price {
+  font-size: 3rem;
+  letter-spacing: 1.4px;
 }
