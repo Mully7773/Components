@@ -59,10 +59,17 @@ body::-webkit-scrollbar {
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+  /* grid-template-columns: 1fr 2fr; */
+  /* align-items: center; */
+  /* justify-items: flex-end; */
 }
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.justify-self--flex-end {
+  justify-self: flex-end;
 }
 
 .row-gap-sm {
@@ -71,6 +78,10 @@ body::-webkit-scrollbar {
 
 .column-gap-sm {
   column-gap: 3.2rem;
+}
+
+.column-gap-lg {
+  column-gap: 12.8rem;
 }
 
 .margin-bottom-md {
