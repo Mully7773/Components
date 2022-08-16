@@ -2,6 +2,12 @@
   padding: 9.6rem 0;
 }
 
+.drink-container {
+  max-width: 140rem;
+  padding: 0 1.6rem;
+  margin: 0 auto;
+}
+
 .subheading {
   display: block;
   font-size: 1.8rem;
@@ -41,6 +47,7 @@
 .star-icon {
   height: 2.4rem;
   width: 2.4rem;
+  fill: orange;
 }
 
 .description {
@@ -49,6 +56,23 @@
 }
 
 .product-price {
-  font-size: 3rem;
+  font-size: 2.4rem;
   letter-spacing: 1.4px;
+}
+
+.btn--add-to-cart {
+  width: 34rem;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 1.2rem 3.2rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+}
+
+.btn--add-to-cart:hover {
+  color: #fff;
+  background-color: orange;
 }
