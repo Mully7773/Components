@@ -1,5 +1,6 @@
 body {
   font-family: "Work Sans", sans-serif;
+  text-rendering: optimizeLegibility;
 }
 
 .section-single-product {
@@ -14,7 +15,7 @@ body {
 }
 
 .elixir {
-  height: 46rem;
+  height: 48rem;
   width: auto;
   opacity: 0.79;
 }
@@ -27,6 +28,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.75px;
   font-family: "Work Sans", sans-serif;
+  padding-top: 1.4rem;
+  margin-bottom: 2.8rem;
 }
 
 .product-heading {
@@ -56,16 +59,18 @@ body {
   font-size: 1.6rem;
   display: block;
   padding-left: 1.2rem;
+  cursor: pointer;
 }
 
 .star-icon {
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 2.2rem;
+  width: 2.2rem;
   fill: #2f250c;
 }
 
 .half-star-icon {
-  stroke: #2f250c;
+  fill: linear-gradient(red, blue);
+  /* stroke: #2f250c; */
   height: 2.4rem;
   width: 2.4rem;
 }
@@ -93,11 +98,10 @@ body {
   border: none;
   cursor: pointer;
   font-family: inherit;
-  transition: all 0.3s;
+  transition: all 0.4s;
 }
 
 .btn--add-to-cart:hover {
   color: #2f250c;
-  background-color: #2f250c;
   background-color: #f1cf75;
 }
