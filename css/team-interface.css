@@ -5,7 +5,7 @@
 body {
   font-family: "Inter", sans-serif;
   height: 100vh;
-  background-image: radial-gradient(circle 175rem, #f3d7f3e7, #fbf1fb);
+  background-image: radial-gradient(circle 175rem, #e1b9ede7, #f8f1fb);
   background-repeat: no-repeat;
 }
 
@@ -36,6 +36,7 @@ body {
   background-color: rgb(244, 244, 244);
   padding: 4rem 6.4rem;
   border-radius: 2.8rem;
+  cursor: pointer;
 
   /* box-shadow: 2rem 2rem 10rem rgb(203, 160, 255); */
   transition: all 0.4s;
@@ -131,9 +132,6 @@ body {
   margin-bottom: 5rem;
 }
 
-.brad {
-}
-
 .brad-circle {
   background: radial-gradient(
       farthest-side at bottom left,
@@ -147,10 +145,6 @@ body {
     );
   width: 9.5rem;
   height: 9.5rem;
-}
-
-.emma {
-  /* background-color: green; */
 }
 
 .emma-circle {
