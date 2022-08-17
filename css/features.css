@@ -1,0 +1,46 @@
+.section-features {
+  padding: 9.6rem 0;
+}
+
+.container-flex--heading {
+  display: flex;
+  gap: 1.4rem;
+  flex-direction: column;
+  align-items: center;
+  max-width: 110rem;
+  margin: 0 auto;
+  font-size: 3.2rem;
+  color: #333;
+  letter-spacing: -0.3px;
+  margin-bottom: 6.4rem;
+}
+
+.grid-container {
+  margin: 0 auto;
+  max-width: 100rem;
+  /* text-align: center; */
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-heading {
+  font-weight: 800;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+.feature-description {
+  font-size: 1.4rem;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.health-icon {
+  width: 7.5rem;
+  height: 7.5rem;
+}

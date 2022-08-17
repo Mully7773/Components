@@ -80,6 +80,10 @@ body::-webkit-scrollbar {
   column-gap: 3.2rem;
 }
 
+.column-gap-md {
+  column-gap: 12.8rem;
+}
+
 .column-gap-lg {
   column-gap: 12.8rem;
 }
