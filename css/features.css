@@ -1,13 +1,18 @@
+body {
+  text-rendering: optimizeLegibility;
+}
+
 .section-features {
-  padding: 9.6rem 0;
+  padding: 9.2rem 0;
+  background-color: #f5f1ed;
 }
 
 .container-flex--heading {
   display: flex;
-  gap: 1.4rem;
+  gap: 1.2rem;
   flex-direction: column;
   align-items: center;
-  max-width: 110rem;
+  max-width: 120rem;
   margin: 0 auto;
   font-family: "Quicksand", sans-serif;
   font-size: 3.2rem;
@@ -18,7 +23,7 @@
 
 .grid-container {
   margin: 0 auto;
-  max-width: 100rem;
+  max-width: 120rem;
   /* text-align: center; */
 }
 
@@ -32,19 +37,19 @@
 .feature-heading {
   font-family: "Lora", serif;
   font-weight: 800;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   line-height: 2.4;
 }
 
 .feature-description {
   font-family: "Quicksand", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 600;
   text-align: center;
   line-height: 1.8;
 }
 
 .health-icon {
-  width: 7.5rem;
-  height: 7.5rem;
+  width: 8.5rem;
+  height: 8.5rem;
 }
