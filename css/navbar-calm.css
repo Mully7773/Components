@@ -1,5 +1,52 @@
 .header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.main-nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.left-nav-list {
+  display: flex;
+  flex: 4 1 0%;
+}
+
+.right-nav-list {
+  display: flex;
+  flex: 4 1 0%;
+}
+
+/* Main navigation */
+.main-nav-list {
+  list-style: none;
+  /* display: flex;
+  gap: 4.8rem;
+  align-items: center; */
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.8rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.left-nav {
+  display: flex;
+  gap: 4.8rem;
+}
+
+.right-nav {
+  display: flex;
+  gap: 4.8rem;
 }
