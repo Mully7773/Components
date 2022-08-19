@@ -8,13 +8,21 @@ body {
   align-items: center;
   height: 8.6rem;
   padding: 0 4.8rem;
+  transition: all 0.4s;
+}
+
+.header:hover {
+  background-color: #f4f7fb;
+  box-shadow: 1 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
 }
 
 .logo-container {
   position: relative;
   font-family: "Lora", serif;
   font-weight: 500;
-  margin-right: 1rem;
+  /* margin-right: 1rem; */
+  margin-bottom: 2rem;
+  cursor: pointer;
 }
 
 .care {
@@ -69,4 +77,10 @@ span {
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
+  transition: all 0.4s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #6c9d87;
 }
