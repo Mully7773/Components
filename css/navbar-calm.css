@@ -7,13 +7,16 @@
 }
 
 .logo {
-  height: 18rem;
+  height: 16rem;
 }
 
 .main-nav {
   display: flex;
   align-items: center;
   width: 100%;
+  height: 100%;
+  max-width: 160rem;
+  padding: 0 3rem;
 }
 
 .left-nav-list {
@@ -23,6 +26,7 @@
 
 .right-nav-list {
   display: flex;
+  justify-content: flex-end;
   flex: 4 1 0%;
 }
 
@@ -52,5 +56,6 @@
 
 .right-nav {
   display: flex;
+
   gap: 4.8rem;
 }
