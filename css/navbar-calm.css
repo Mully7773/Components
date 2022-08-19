@@ -1,15 +1,37 @@
+body {
+  background-color: #cad6ec;
+}
+
 .header {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 9.6rem;
+  height: 8.6rem;
   padding: 0 4.8rem;
 }
 
-.logo {
-  height: 16rem;
+.logo-container {
+  position: relative;
+  font-family: "Lora", serif;
+  font-weight: 500;
+  margin-right: 1rem;
 }
 
+.care {
+  /* position: absolute; */
+  font-size: 2.8rem;
+}
+
+.one {
+  position: absolute;
+  top: 2.6rem;
+  left: 4rem;
+  font-size: 2.8rem;
+}
+
+span {
+  font-size: 3.2rem;
+}
 .main-nav {
   display: flex;
   align-items: center;
@@ -47,15 +69,4 @@
   font-family: "Quicksand", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-}
-
-.left-nav {
-  display: flex;
-  gap: 4.8rem;
-}
-
-.right-nav {
-  display: flex;
-
-  gap: 4.8rem;
 }
