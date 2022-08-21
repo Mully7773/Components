@@ -3,6 +3,7 @@ body {
 }
 
 .header {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,7 +115,50 @@ span {
   box-shadow: inset 0 0 0 2px #6c9d87;
 }
 
-ul li {
+section {
+  display: block;
+}
+
+.learn-nav-link {
+  position: relative;
+}
+
+.learn-dropdown {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.dropdown-menu {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  background: #fff;
+  top: calc(100% - 0.825rem);
+  right: 99.5rem;
+  box-shadow: rgb(0 0 0 / 18%) 0px 0.625rem 2.5rem;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  max-width: 14.5rem;
+  padding: 3.2rem 1.8rem;
+  transition: visibility 0s ease 0s, opacity 0.5s linear 0s;
+}
+
+.dropdown-menu li {
+  /* padding: 1.2rem 2rem; */
+  font-size: 1.8rem;
+  list-style: none;
+}
+
+.dropdown-menu li:hover {
+  text-decoration: underline;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ul li {
   position: relative;
 }
 
@@ -127,12 +171,20 @@ ul li {
   position: absolute;
   z-index: 9999;
   left: 0;
+  overflow: auto;
+}
+
+.dropdown a {
+  text-decoration: none;
+  display: block;
+  padding: 1.2rem 1.6rem;
 }
 
 .dropdown:hover {
   display: block;
-}
+} */
 
-ul li ul.dropdown li {
-  /* display: block; */
+.display {
+  visibility: visible;
+  opacity: 1;
 }
