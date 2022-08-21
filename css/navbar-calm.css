@@ -113,3 +113,26 @@ span {
   text-transform: none;
   box-shadow: inset 0 0 0 2px #6c9d87;
 }
+
+ul li {
+  position: relative;
+}
+
+.dropdown {
+  min-width: 100%;
+  background-color: #f4f7fb;
+  visibility: hidden;
+  display: none;
+  opacity: 0;
+  position: absolute;
+  z-index: 9999;
+  left: 0;
+}
+
+.dropdown:hover {
+  display: block;
+}
+
+ul li ul.dropdown li {
+  /* display: block; */
+}
