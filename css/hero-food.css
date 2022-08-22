@@ -1,3 +1,7 @@
+body {
+  text-rendering: optimizeLegibility;
+}
+
 .header {
   background-image: url(../img/brooke-lark-08bOYnH_r_E-unsplash.jpg);
   background-size: cover;
@@ -14,7 +18,6 @@
 }
 .header-container-inner {
   width: 50%;
-  /* background-color: red; */
   padding: 3.2rem;
 }
 
@@ -36,13 +39,38 @@
   line-height: 1.6;
 }
 
+.logo {
+  color: #fc5653b7;
+  text-align: center;
+  line-height: 1.25;
+  font-size: 1.8rem;
+  letter-spacing: 0.6rem;
+}
+
+span {
+  font-size: 3.2rem;
+}
+
 nav {
+  color: #fc5653b7;
+  text-transform: uppercase;
   font-size: 2rem;
   font-weight: 700;
+  font-family: "Faustina", serif;
   display: flex;
+  letter-spacing: 0.2rem;
   align-items: center;
   justify-content: space-between;
-  padding: 3.2rem 2.8rem 0 2.8rem;
+  padding: 1.8rem 2.8rem 0 2.8rem;
+}
+
+.main-nav-list {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  text-decoration: none;
+  list-style: none;
 }
 
 .btn,
