@@ -10,25 +10,30 @@
   position: absolute;
   top: auto;
   bottom: 7rem;
-  left: 0;
+  left: 2rem;
 }
 .header-container-inner {
   width: 50%;
-  background-color: red;
+  /* background-color: red; */
+  padding: 3.2rem;
 }
 
 .subheading {
   display: block;
-  font-size: 1.6rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 400;
   text-transform: uppercase;
-  margin-bottom: 1.6rem;
+  margin-bottom: 2.4rem;
   letter-spacing: 0.75px;
 }
 
 .heading {
-  font-size: 5.2rem;
-  margin-bottom: 3.2rem;
+  color: #222;
+  font-weight: 400;
+  font-family: "Faustina", serif;
+  font-size: 3.6rem;
+  margin-bottom: 4.8rem;
+  line-height: 1.6;
 }
 
 nav {
@@ -37,5 +42,33 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 3.2rem;
+  padding: 3.2rem 2.8rem 0 2.8rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  color: inherit;
+  display: inline-block;
+  font-size: 1.6rem;
+  text-decoration: none;
+  border: none;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+
+.btn:after,
+.btn:link:after,
+.btn:visited:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1.5px #333;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+  padding-bottom: 0.4rem;
+  transform-origin: 0% 50%;
+}
+
+.btn:hover::after {
+  transform: scaleX(1);
 }
