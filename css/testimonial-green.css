@@ -53,3 +53,40 @@
 .testimonial-name {
   margin-bottom: 1.2rem;
 }
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #312f4a;
+  color: #4bd2b2;
+  font-size: 1.6rem;
+  font-weight: 600;
+  padding: 2rem 3.2rem;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.3s;
+  margin-top: 1rem;
+}
+
+.btn:hover,
+.btn:active {
+  color: #312f4a;
+  background-color: #4bd2b2;
+}
+.right-chevron {
+  height: 1.5rem;
+  padding-left: 0.4rem;
+}
+
+.case-study-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 100rem !important;
+  margin: 0 auto;
+}
