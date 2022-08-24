@@ -90,3 +90,7 @@ body::-webkit-scrollbar {
 .margin-bottom-md {
   margin-bottom: 4.8rem !important;
 }
+
+.max-width-sm {
+  max-width: 90rem;
+}
