@@ -6,6 +6,11 @@ body {
   background-color: rgb(212, 212, 212);
 }
 
+.btn {
+  padding: 1.8rem 1.4rem;
+  border: none;
+}
+
 .get-started-btn {
   font-family: "Inter", sans-serif;
   color: #fff;
@@ -14,17 +19,29 @@ body {
   text-decoration: none;
   font-size: 1.6rem;
   font-weight: 400;
-  padding: 1.8rem 1.4rem;
-  border: none;
   background-color: #5353de;
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   border-bottom-left-radius: 0.1rem;
   border-top-right-radius: 0.1rem;
-  animation: ease 0.3s;
+  transition: all 0.3s;
 }
 
 .get-started-btn:hover {
-  color: #5353de;
-  background-color: #fff;
+  background-color: #4242b2;
+}
+
+.add-to-chrome-btn {
+  color: rgb(238, 238, 238);
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  background-image: linear-gradient(to right, #39c56cc0, #1e95b9cd);
+  letter-spacing: 0.5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  transition: all 0.3s;
+}
+
+.add-to-chrome-btn:hover {
+  color: #fff;
+  box-shadow: none;
 }
