@@ -56,7 +56,6 @@ body {
   display: inline-block;
   text-align: center;
   border-radius: 6px;
-  background-image: linear-gradient(to right, #fca46a, #ff4800);
 }
 
 .btn-outline {
@@ -76,12 +75,29 @@ body {
   border-radius: 6px;
   text-align: center;
   min-width: 19.4rem;
-  transform: translate3d(12px, -12px, 0px) scale3d(1, 1, 1) rotateX(5deg)
+  transform: translate3d(10px, -10px, 0px) scale3d(1, 1, 1) rotateX(5deg)
     rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
   font-size: 1.6rem;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 1px;
   color: #222;
   font-weight: 600;
   padding: 1.8rem 1.4rem;
+  background-color: #ec7a7a;
+  background-image: linear-gradient(
+    122deg,
+    #fee5a5,
+    #fea5a5 62%,
+    #f69393 100%,
+    #fff
+  );
+  transition: all 0.3s;
+}
+
+.cta:hover {
+  transform: translate3d(6px, -6px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
 }
 
 .add-to-chrome-btn {
