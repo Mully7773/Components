@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgb(212, 212, 212);
+  background-color: #e4ebf5;
 }
 
 .btn {
@@ -173,4 +173,40 @@ body {
 .download-icon {
   stroke: #182b52;
   height: 2rem;
+}
+
+.btn-neo {
+  width: 100%;
+  height: 5rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #fff;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-neo:hover,
+.btn-neo:active {
+  color: #6d5dfc;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7,
+    inset -0.2rem -0.2rem 0.5rem #fff;
+  /* box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7,
+    inset -0.2rem -0.2rem -0.4rem #fff; */
+}
+
+.btn-neo:active {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7,
+    inset -0.2rem -0.2rem -0.4rem #fff;
+}
+
+.btn__secondary {
+  border-radius: 1rem;
+  color: #9baacf;
+}
+
+.click {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
 }
