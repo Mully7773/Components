@@ -50,6 +50,40 @@ body {
   outline: solid 2px rgb(23, 23, 23);
 }
 
+.try-one-week-btn {
+  position: relative;
+  max-width: 100%;
+  display: inline-block;
+  text-align: center;
+  border-radius: 6px;
+  background-image: linear-gradient(to right, #fca46a, #ff4800);
+}
+
+.btn-outline {
+  left: 0;
+  position: absolute;
+  display: inline-block;
+  border-radius: 6px;
+  box-shadow: inset -2px 0 0 0 #fff, inset 2px 0 0 0 #fff, inset 0 -2px 0 0 #fff,
+    inset 0 2px 0 0 #fff;
+  transform: translate(-7%, -5%);
+}
+
+.cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  text-align: center;
+  min-width: 19.4rem;
+  transform: translate3d(12px, -12px, 0px) scale3d(1, 1, 1) rotateX(5deg)
+    rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  font-size: 1.6rem;
+  color: #222;
+  font-weight: 600;
+  padding: 1.8rem 1.4rem;
+}
+
 .add-to-chrome-btn {
   color: rgb(238, 238, 238);
   border-radius: 0.5rem;
