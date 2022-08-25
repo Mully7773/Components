@@ -38,10 +38,42 @@ body {
   background-image: linear-gradient(to right, #39c56cc0, #1e95b9cd);
   letter-spacing: 0.5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
   transition: all 0.3s;
 }
 
 .add-to-chrome-btn:hover {
   color: #fff;
   box-shadow: none;
+}
+
+.subscribe-bell-icon {
+  height: 2rem;
+}
+
+.subscribe-bell-ring-icon {
+  height: 2rem;
+  display: none;
+}
+
+.subscribe-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 10rem;
+  border: 2px solid #333;
+  cursor: pointer;
+  background-color: rgba(207, 207, 236, 0.823);
+}
+
+.subscribe-btn:hover .subscribe-bell-icon {
+  display: none;
+}
+
+.subscribe-btn:hover .subscribe-bell-ring-icon {
+  display: inline-block;
 }
