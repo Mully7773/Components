@@ -144,3 +144,33 @@ body {
 .subscribe-btn:hover .subscribe-bell-ring-icon {
   display: inline-block;
 }
+
+.download-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  outline: 2px solid #000;
+  border-radius: 2px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 1.7rem;
+  color: #182b52;
+  background-color: #4dccbd;
+  box-shadow: 3.2px 3.2px 0 1px #000;
+  transition: box-shadow 0.35s;
+}
+
+.download-btn:hover {
+  box-shadow: none;
+  color: #050910;
+}
+
+.download-btn:hover > .download-icon {
+  stroke: #050910;
+}
+
+.download-icon {
+  stroke: #182b52;
+  height: 2rem;
+}
