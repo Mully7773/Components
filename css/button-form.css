@@ -7,9 +7,31 @@ body {
 }
 
 .input-container {
-  display: flex;
-  padding: 1.4rem 4.2rem;
+  padding: 1.4rem 1.2rem;
   max-width: fit-content;
   background-color: #fff;
+  border-radius: 10rem;
+  box-shadow: 0 1.5px 7px 0.5px rgba(0, 0, 0, 0.1);
+}
+
+.btn-form {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.btn-form input {
+  /* width: 100%; */
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  border: none;
+  background-color: #fff;
+  color: #333;
+}
+
+.btn--form {
+  padding: 2.5rem;
+  background-color: rgb(10, 109, 109);
+  color: #fff;
+  border: none;
   border-radius: 10rem;
 }
