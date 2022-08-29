@@ -7,7 +7,7 @@ body {
 }
 
 .input-container {
-  padding: 1.4rem 1.2rem;
+  padding: 0.7rem 1.2rem;
   max-width: fit-content;
   background-color: #fff;
   border-radius: 10rem;
@@ -16,22 +16,39 @@ body {
 
 .btn-form {
   display: flex;
-  gap: 2.4rem;
+  justify-content: space-between;
+  gap: 1.8rem;
 }
 
 .btn-form input {
   /* width: 100%; */
-  padding: 1.2rem;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   border: none;
   background-color: #fff;
   color: #333;
+  padding: 0 1.8rem;
+}
+
+.btn-form input::placeholder {
+  color: #30bfbf;
 }
 
 .btn--form {
-  padding: 2.5rem;
-  background-color: rgb(10, 109, 109);
-  color: #fff;
+  padding: 1.8rem 2.5rem;
+  background-color: #0a6d6d;
+  color: #e7f0f0;
   border: none;
   border-radius: 10rem;
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.input-container *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.3rem rgba(10, 109, 109, 0.1);
+}
+
+.btn--form:hover {
+  background-color: #096262;
 }
