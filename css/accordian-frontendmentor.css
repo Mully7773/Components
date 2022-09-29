@@ -22,6 +22,7 @@ html {
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   display: flex;
   place-items: center;
+  position: relative;
 }
 
 .container {
@@ -39,13 +40,13 @@ html {
   /* padding: 5.2rem 4.2rem 4.2rem 0; */
   border-radius: 2.4rem;
   box-shadow: 0 2rem 4rem hsl(250, 48%, 48%);
-  position: relative;
+  /* position: relative; */
 }
 
 .box-wrapper {
   position: absolute;
-  left: -7.3rem;
-  bottom: 9.5rem;
+  left: 16.7rem;
+  bottom: 19rem;
   z-index: 9999;
 }
 
@@ -95,11 +96,42 @@ html {
 
 .question {
   /* padding-top: 3.2rem; */
+
+  display: grid;
+  grid-template-columns: 1fr auto;
+  column-gap: 2.4rem;
+  /* row-gap: 3.2rem; */
+  align-items: center;
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.6rem; */
   padding-bottom: 1.6rem;
   border-bottom: 1px solid hsl(240, 5%, 91%);
+  cursor: pointer;
 }
 
 .question-text {
   color: hsl(237, 12%, 33%);
   font-size: 1.2rem;
+  transition: all 0.3s;
+}
+
+.question-text:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.chevron {
+  margin-right: 1.6rem;
+}
+
+.answer-text {
+  grid-column: 1;
+  line-height: 1.6;
+  margin-top: 1rem;
+  /* display: block; */
+}
+
+.hidden {
+  display: none;
 }
