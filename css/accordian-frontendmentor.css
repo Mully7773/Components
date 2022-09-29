@@ -1,0 +1,39 @@
+/* General styles */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  /* 10px / 16px = 0.625 = 62.5% */
+}
+
+/* Section styles */
+
+.section-faq {
+  min-height: 100vh;
+  line-height: 1;
+  font-weight: 400;
+  color: #444;
+  font-family: "Kumbh Sans", sans-serif;
+  background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  display: flex;
+  place-items: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80rem;
+  /* width: 80rem;
+  height: 42rem; */
+  background-color: white;
+  display: flex;
+}
+
+.image-container {
+  background-image: url(../img/images/bg-pattern-desktop.svg);
+}
