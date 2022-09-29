@@ -39,6 +39,18 @@ html {
   /* padding: 5.2rem 4.2rem 4.2rem 0; */
   border-radius: 2.4rem;
   box-shadow: 0 2rem 4rem hsl(250, 48%, 48%);
+  position: relative;
+}
+
+.box-wrapper {
+  position: absolute;
+  left: -7.3rem;
+  bottom: 9.5rem;
+  z-index: 9999;
+}
+
+.box {
+  width: 15rem;
 }
 
 .image-container {
@@ -58,32 +70,33 @@ html {
 
 .woman-img {
   position: absolute;
-  left: -6.5rem;
+  left: -6.4rem;
   width: 40rem;
   /* margin-left: -5rem; */
 }
 
 .faq-container {
   /* padding: 4.2rem; */
-  width: 40%;
-  padding: 5.2rem 4.2rem 4.2rem 0;
+  width: 50%;
+  padding: 5.2rem 10rem 8.2rem 0;
 }
 
 .faq-title {
-  font-size: 3.2rem;
-  margin-bottom: 3.4rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 3.8rem;
 }
 
 .question-container {
   display: flex;
   flex-direction: column;
-  gap: 3.4rem;
+  gap: 1.8rem;
 }
 
 .question {
   /* padding-top: 3.2rem; */
   padding-bottom: 1.6rem;
-  border-bottom: 1px solid hsl(237, 12%, 33%);
+  border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
 .question-text {
