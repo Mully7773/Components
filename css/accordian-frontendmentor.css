@@ -32,8 +32,48 @@ html {
   height: 42rem; */
   background-color: white;
   display: flex;
+  /* gap: 9.2rem; */
+  padding: 5.2rem 4.2rem 4.2rem 0;
+  border-radius: 2.4rem;
 }
 
 .image-container {
-  background-image: url(../img/images/bg-pattern-desktop.svg);
+  background: url(../img/images/bg-pattern-desktop.svg);
+  /* background-position: bottom; */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.woman-img {
+  width: 34rem;
+  font-weight: 700;
+  margin-right: -4.2rem;
+}
+
+.faq-container {
+  /* padding: 4.2rem; */
+}
+
+.faq-title {
+  font-size: 3.2rem;
+  margin-bottom: 3.4rem;
+}
+
+.question-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3.4rem;
+}
+
+.question {
+  /* padding-top: 3.2rem; */
+  padding-bottom: 1.6rem;
+  border-bottom: 1px solid hsl(237, 12%, 33%);
+}
+
+.question-text {
+  color: hsl(237, 12%, 33%);
+  font-size: 1.2rem;
 }
