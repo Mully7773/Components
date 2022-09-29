@@ -28,32 +28,45 @@ html {
   margin: 0 auto;
   width: 100%;
   max-width: 80rem;
+  /* display: grid;
+  grid-template-columns: 50% 50%; */
   /* width: 80rem;
   height: 42rem; */
   background-color: white;
   display: flex;
   /* gap: 9.2rem; */
-  padding: 5.2rem 4.2rem 4.2rem 0;
+  justify-content: space-between;
+  /* padding: 5.2rem 4.2rem 4.2rem 0; */
   border-radius: 2.4rem;
+  box-shadow: 0 2rem 4rem hsl(250, 48%, 48%);
 }
 
 .image-container {
   background: url(../img/images/bg-pattern-desktop.svg);
-  /* background-position: bottom; */
+  background-position: bottom;
+  background-position: bottom -20px right 65px;
   background-size: cover;
+  /* background-size: 100%;
+  background-size: 100% auto; */
+  background-repeat: no-repeat;
   display: flex;
   align-items: center;
-  justify-content: center;
+  width: 50%;
+  position: relative;
+  overflow: hidden;
 }
 
 .woman-img {
-  width: 34rem;
-  font-weight: 700;
-  margin-right: -4.2rem;
+  position: absolute;
+  left: -6.5rem;
+  width: 40rem;
+  /* margin-left: -5rem; */
 }
 
 .faq-container {
   /* padding: 4.2rem; */
+  width: 40%;
+  padding: 5.2rem 4.2rem 4.2rem 0;
 }
 
 .faq-title {
