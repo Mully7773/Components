@@ -22,7 +22,6 @@ html {
   background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
   display: flex;
   place-items: center;
-  position: relative;
 }
 
 .container {
@@ -40,28 +39,18 @@ html {
   /* padding: 5.2rem 4.2rem 4.2rem 0; */
   border-radius: 2.4rem;
   box-shadow: 0 2rem 4rem hsl(250, 48%, 48%);
-  /* position: relative; */
-}
-
-.box-wrapper {
-  position: absolute;
-  left: 16.7rem;
-  bottom: 19rem;
-  z-index: 9999;
-}
-
-.box {
-  width: 15rem;
 }
 
 .image-container {
-  background: url(../img/images/bg-pattern-desktop.svg);
-  background-position: bottom;
+  background: url("../img/images/bg-pattern-desktop.svg");
   background-position: bottom -20px right 65px;
-  background-size: cover;
-  /* background-size: 100%;
-  background-size: 100% auto; */
+  /* background-size: cover, 100%; 
+  background-size: 100%; */
+  background-size: 100% auto;
   background-repeat: no-repeat;
+  /* background-size: 700px, 100%; */
+  /* background-position-x: -340px, -72px;
+  background-position-y: -203px, top; */
   display: flex;
   align-items: center;
   width: 50%;
@@ -69,10 +58,27 @@ html {
   overflow: hidden;
 }
 
+.box-wrapper {
+  position: absolute;
+  /* left: -7.2rem;
+  bottom: 10rem; */
+  /* left: -7.2rem;
+  bottom: 24rem; */
+  z-index: 9999;
+  margin-left: -7rem;
+  margin-top: -7rem;
+}
+
+.box {
+  width: 15rem;
+  position: fixed;
+}
+
 .woman-img {
   position: absolute;
   left: -6.4rem;
   width: 40rem;
+
   /* margin-left: -5rem; */
 }
 
@@ -86,12 +92,17 @@ html {
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 3.8rem;
+  text-transform: uppercase;
 }
 
 .question-container {
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .question {
@@ -109,6 +120,10 @@ html {
   padding-bottom: 1.6rem;
   border-bottom: 1px solid hsl(240, 5%, 91%);
   cursor: pointer;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .question-text {
@@ -118,6 +133,7 @@ html {
 }
 
 .question-text:hover {
+  font-weight: 700;
   color: hsl(14, 88%, 65%);
 }
 
@@ -129,9 +145,19 @@ html {
   grid-column: 1;
   line-height: 1.6;
   margin-top: 1rem;
-  /* display: block; */
+  display: none;
 }
 
-.hidden {
-  display: none;
+/* JS classes */
+
+.open .chevron {
+  transform: rotate(180deg);
+}
+
+.open .answer-text {
+  display: block;
+}
+
+.open .question-text {
+  font-weight: 700;
 }
