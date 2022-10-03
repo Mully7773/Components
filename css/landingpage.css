@@ -200,9 +200,10 @@ header {
   background-color: #3882f6;
   width: 130rem;
   /* width: 20rem; */
-  height: 20rem;
+  /* height: 20rem; */
   /* margin: 0 auto; */
   margin: 9.8rem 0;
+  padding: 3.2rem 0;
   border-radius: 1.1rem;
   display: flex;
   justify-content: center;
@@ -252,6 +253,25 @@ header {
 .btn-outline:active {
   background-color: #f9faf8;
   color: #3882f6;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
+  max-width: 100vw;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  padding: 3rem 0;
+  font-size: 1.8rem;
+  color: #f9faf8;
 }
 
 /* Helpers */
