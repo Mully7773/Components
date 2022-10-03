@@ -62,8 +62,8 @@ html {
   position: absolute;
   /* left: -7.2rem;
   bottom: 10rem; */
-  /* left: -7.2rem;
-  bottom: 24rem; */
+
+  /* To prevent box from moving vertically when expanding accordion */
   z-index: 9999;
   margin-left: -7rem;
   margin-top: -7rem;

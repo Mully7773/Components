@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.header {
+  display: flex;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+.header-text {
+  color: #f9faf8;
+  font-size: 2.4rem;
+}
