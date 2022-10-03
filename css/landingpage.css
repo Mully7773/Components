@@ -101,6 +101,7 @@ header {
   border: none;
   cursor: pointer;
   color: #f9faf8;
+  letter-spacing: 0.1rem;
 }
 
 /* Section - information section */
@@ -185,6 +186,72 @@ header {
   align-items: center;
   font-size: 2.4rem;
   font-weight: 700;
+}
+
+/* CTA Section */
+.cta-section {
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-container {
+  background-color: #3882f6;
+  width: 130rem;
+  /* width: 20rem; */
+  height: 20rem;
+  /* margin: 0 auto; */
+  margin: 9.8rem 0;
+  border-radius: 1.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12.2rem;
+}
+
+.cta-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  color: #f9faf8;
+  padding: 3.6rem;
+}
+
+.cta-main-text {
+  font-weight: 700;
+  font-size: 3.2rem;
+}
+
+.cta-subtext {
+  font-size: 2rem;
+}
+
+.btn-container {
+  padding: 2.4rem;
+}
+
+.btn-outline,
+.btn-outline:link,
+.btn-outline:visited {
+  display: inline-block;
+  background-color: #3882f6;
+  padding: 1.6rem 6.2rem;
+  border-radius: 0.9rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2rem;
+  border: #f9faf8 solid 2px;
+  cursor: pointer;
+  color: #f9faf8;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s;
+}
+
+.btn-outline:hover,
+.btn-outline:active {
+  background-color: #f9faf8;
+  color: #3882f6;
 }
 
 /* Helpers */
