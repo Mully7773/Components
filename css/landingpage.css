@@ -14,9 +14,33 @@ html {
   color: #e5e7eb;
   font-size: 18px;
   justify-content: space-between;
+  align-items: center;
+  /* max-width: 100rem; */
+  padding: 0 24rem;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 130rem;
 }
 
 .header-text {
   color: #f9faf8;
   font-size: 2.4rem;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #e5e7eb;
 }
