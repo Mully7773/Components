@@ -10,6 +10,7 @@ html {
 
 body {
   text-rendering: optimizeLegibility;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
@@ -99,6 +100,51 @@ header {
   color: #f9faf8;
 }
 
+/* Section - information section */
+.random-info-section {
+  background-color: #f9faf8;
+  padding: 7.8rem 0;
+}
+
+.random-info {
+  display: flex;
+  flex-direction: column;
+  max-width: 115rem;
+  margin: 0 auto;
+  gap: 4.2rem;
+}
+
+.info-heading-text {
+  font-weight: 700;
+  font-size: 3.6rem;
+  text-align: center;
+}
+
+.info-cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3.6rem;
+}
+
+.square-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.square {
+  border: #3882f6 3px solid;
+  height: 16rem;
+  width: 16rem;
+}
+
+/* Helpers */
+
 .margin-bottom-sm {
-  margin-bottom: 3.2rem;
+  margin-bottom: 1.8rem;
+}
+
+.margin-bottom-md {
+  margin-bottom: 3.8rem;
 }
