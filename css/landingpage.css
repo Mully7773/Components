@@ -8,6 +8,13 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  text-rendering: optimizeLegibility;
+}
+
+header {
+  background-color: #1f2937;
+}
 .header {
   display: flex;
   background-color: #1f2937;
@@ -15,16 +22,16 @@ html {
   font-size: 18px;
   justify-content: space-between;
   align-items: center;
-  /* max-width: 100rem; */
-  padding: 0 24rem;
+  max-width: 130rem;
+  margin: 0 auto;
 }
 
-.container {
+/* .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 130rem;
-}
+} */
 
 .header-text {
   color: #f9faf8;
@@ -43,4 +50,55 @@ html {
   display: inline-block;
   text-decoration: none;
   color: #e5e7eb;
+}
+
+.hero-section {
+  background-color: #1f2937;
+}
+.hero {
+  display: flex;
+  gap: 6.2rem;
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 8.4rem 0;
+}
+
+.hero-left-content {
+  max-width: 60rem;
+}
+
+.hero-right-content {
+  flex-grow: 2;
+}
+
+.hero-main-text {
+  font-size: 6.8rem;
+  font-weight: bolder;
+  color: #f9faf8;
+  line-height: 0.9;
+}
+
+.hero-subtext {
+  font-size: 2rem;
+  color: #e5e7eb;
+  line-height: 1.6;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: #3882f6;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  color: #f9faf8;
+}
+
+.margin-bottom-sm {
+  margin-bottom: 3.2rem;
 }
