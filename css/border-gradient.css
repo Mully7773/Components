@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: rgba(0, 0, 110, 0.804);
+  background-color: rgb(0, 0, 32);
 }
 
 main {
@@ -40,12 +40,69 @@ p {
 }
 
 .gradient-border-1 {
-  border-block-start: 10px solid;
-  padding-block-start: 10px;
+  /* border-block-start: 10px solid; */
+  border: 10px solid;
+  /* padding-block-start: 10px; */
+  padding: 10px;
+  border-image-source: linear-gradient(
+    45deg,
+    rgb(86, 24, 203),
+    rgb(45, 173, 233)
+  );
+  border-image-slice: 1;
 }
 
+/* For two corners method */
+/* .gradient-border-1 {
+  border: 4px solid;
+  padding: 10px;
+  border-image-source: linear-gradient(
+    45deg,
+    rgb(86, 24, 203),
+    transparent 50%,
+    rgb(45, 173, 233) 
+  );
+  border-image-slice: 1;
+} */
+
 .gradient-border-2 {
+  border-block-start: 2px solid;
+  border-block-end: 2px solid;
+  padding-block-start: 10px;
+  padding-block-end: 10px;
+  border-image-source: linear-gradient(90deg, red 50%, blue 50%);
+  border-image-slice: 1;
 }
 
 .gradient-border-3 {
+  /* border-inline-start: 4px solid;
+
+  border-block-start: 4px solid; */
+  /* border: 4px solid; */
+  border: 4px solid;
+  padding: 10px;
+  border-image-source: radial-gradient(
+    circle at top left,
+    limegreen,
+    transparent 50%
+  );
+
+  border-image-slice: 1;
 }
+
+/* .gradient-border-3::after {
+  display: block;
+  content: "";
+
+  border-bottom: solid 4px;
+  border-right: solid 4px;
+
+  /* border-inline-end: 4px solid;
+  border-block-end: 4px solid; */
+/* border-image-source: radial-gradient(
+    circle at bottom right,
+    limegreen,
+    transparent 50%
+  );
+  border-image-slice: 1;
+} */
